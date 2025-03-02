@@ -1,0 +1,112 @@
+body {
+    background-color: #121212;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #FFD700;
+}
+
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie-card {
+    background-color: #1C1C1C;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+}
+
+.movie-poster {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.movie-title {
+    margin: 10px 0 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.movie-year {
+    color: #BBBBBB;
+}
+/* Add this to your styles.css file */
+
+/* Add this to your styles.css file */
+
+.search-form {
+    display: flex;                      /* Use flexbox for alignment */
+    flex-direction: column;            /* Stack items vertically */
+    align-items: center;               /* Center items horizontally */
+    margin: 20px 0;                    /* Add margin for spacing */
+}
+
+.search-label {
+    margin-bottom: 10px;               /* Space between label and input */
+    font-size: 18px;                   /* Font size for the label */
+    color: #ffffff;                    /* Label text color */
+}
+
+.search-input {
+    width: 300px;                       /* Set the width of the input field */
+    padding: 10px;                     /* Add padding for inner spacing */
+    border: 2px solid #f39c12;         /* Border color */
+    border-radius: 25px;               /* Rounded corners */
+    font-size: 16px;                   /* Increase font size */
+    transition: border-color 0.3s;     /* Smooth transition for border color */
+    outline: none;                     /* Remove outline */
+    margin-bottom: 10px;               /* Space between input and button */
+}
+
+.search-input:focus {
+    border-color: #f1c40f;             /* Change border color on focus */
+}
+
+.search-button {
+    padding: 10px 20px;                /* Add padding for button */
+    background-color: #f39c12;         /* Button background color */
+    color: white;                       /* Text color */
+    border: none;                       /* Remove default border */
+    border-radius: 25px;               /* Rounded corners */
+    cursor: pointer;     
+    margin-top: 10px;               /* Change cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.search-button:hover {
+    background-color: #e67e22;         /* Darker shade on hover */
+}
+
+.search-button:active {
+    background-color: #d35400;         /* Even darker shade on click */
+}
+.container {
+    display: flex;                      /* Use flexbox for centering */
+    flex-direction: column;            /* Stack items vertically */
+    justify-content: center;           /* Center vertically */
+    align-items: center;               /* Center horizontally */
+    height: 100vh;                     /* Full height of the viewport */
+    background-color: #162029;        /* Dark background color */
+    color: #ffffff;                    /* White text color for contrast */
+}

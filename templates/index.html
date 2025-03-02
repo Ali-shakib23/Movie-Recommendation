@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendations</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Movie Recommendation System</h1>
+
+        
+        
+           
+            <form method="POST" class="search-form">
+                <label for="movie" class="search-label">Enter a Movie Name:</label>
+                <input type="text" id="movie" name="movie" value="{{ selected_movie_name or '' }}" required class="search-input">
+                <button type="submit" class="search-button">Get Recommendations</button>
+            </form>
+            <!-- Additional content goes here -->
+        
+        
+        
+
+        <!-- Recommendations Section -->
+        {% if recommendations %}
+            <h2>Recommended Movies for "{{ selected_movie_name }}":</h2>
+            <div class="movie-list">
+                {% for movie in recommendations %}
+                    <div class="movie-card">
+                        <!-- <img class="movie-poster" src="{{ movie['Poster'] }}" alt="{{ movie['Title'] }}"> -->
+                        <div class="movie-title">{{ movie['Title'] }}</div>
+                        <div class="movie-year">{{ movie['Year'] }}</div>
+                    </div>
+                {% endfor %}
+            </div>
+        {% else %}
+            <p>No recommendations found.</p>
+        {% endif %}
+    </div>
+    <!-- <script src="app.js"></script> -->
+</body>
+</html>
