@@ -1,11 +1,11 @@
-# 🎬 Movie Recommendation Website
+# **🎬 Movie Recommendation Website**
 
 This is a simple **Movie Recommendation Website** built using **Flask, Python, HTML, and JavaScript**.  
 The system also utilizes a **free external API** to fetch movie details.
 
 ---
 
-## 🚀 Features
+## **🚀 Features **
 - Flask backend to handle API requests
 - Frontend with **HTML, CSS, and JavaScript**
 - Fetches movie details from an **external API**
@@ -13,7 +13,7 @@ The system also utilizes a **free external API** to fetch movie details.
 
 ---
 
-## 🛠️ Installation and Setup
+## **🛠️ Installation and Setup**
 
 ### **1️⃣ Clone the Repository**
 
