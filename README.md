@@ -24,5 +24,6 @@ cd Movie-Recommendation
 Make sure you have an API key (if required) and update the API URL in your code.
 
 Example API Call:
-
 https://api.example.com/movies?query=Inception&api_key=YOUR_API_KEY
+
+https://github.com/user-attachments/assets/06b768e5-fe0e-47fe-b1da-6747e7a546ff
